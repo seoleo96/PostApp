@@ -1,5 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="fab_margin">48dp</dimen>
     <dimen name="vertical_max_margin_top">200dp</dimen>
     <dimen name="vertical_standard_margin_top">16dp</dimen>
 </resources>

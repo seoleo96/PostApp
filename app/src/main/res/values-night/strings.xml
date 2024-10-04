@@ -1,5 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">PostApp</string>
     <string name="login_text">LogIn</string>
     <string name="phone_number_hint_text">Phone number</string>
     <string name="next">Next</string>
