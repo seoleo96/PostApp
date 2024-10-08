@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="login_text">LogIn</string>
-    <string name="phone_number_hint_text">Phone number</string>
+    <string name="email_hint_text">Email</string>
     <string name="next">Next</string>
     <string name="default_notification_channel_id">comSeoleoPostapp</string>
+    <string name="password_hint_text">Password</string>
+    <string name="name_hint_text">Name</string>
 </resources>

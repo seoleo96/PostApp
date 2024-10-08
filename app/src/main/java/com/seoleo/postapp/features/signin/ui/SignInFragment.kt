@@ -1,4 +1,4 @@
-package com.seoleo.postapp.features.signin
+package com.seoleo.postapp.features.signin.ui
 
 import androidx.fragment.app.viewModels
 import android.os.Bundle
@@ -24,6 +24,15 @@ class SignInFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
+
+        binding.next.setOnClickListener {
+            viewModel.createUser(email = "seoleo96@gmail.com", password = "mnbvcxz1998", name = "Sardor")
+        }
+        binding.next.setOnLongClickListener {
+            viewModel.getCurrentUser()
+            return@setOnLongClickListener true
+        }
 
     }
 
